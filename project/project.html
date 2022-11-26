@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GN Construction</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg');
+            background-repeat: no-repeat;
+
+
+            background-size: 100%;
+            /* height: 1500px;           */
+            color: rgb(240, 243, 245);
+            background-color: rgba(37, 37, 37, 0.773);
+            /* height: 700px; */
+        }
+
+        .left {
+            background-color: rgb(0, 0, 0);
+            width: 239px;
+
+
+
+        }
+
+        .left img {
+            width: 125px;
+            margin-left: 90px;
+            margin-top: 0px;
+
+        }
+
+        .middle {
+            border: 0px solid rgb(240, 240, 247);
+            position: absolute;
+            right: 350px;
+            padding-left: 70px;
+            top: 0px;
+            width: 900px;
+            padding-top: 5px;
+            background-color: black;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 5px px;
+            margin-left: 70px;
+            margin-bottom: 7px;
+            cursor: pointer;
+
+        }
+
+        .right {
+            background-color: black;
+
+
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 350px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+
+
+        }
+
+
+        .button {
+            background-color: rgb(188, 127, 28);
+            border-radius: 10px;
+            padding: 5px 30px;
+            padding-top: 5px;
+
+        }
+
+        .button:hover {
+            background-color: grey;
+            cursor: pointer;
+        }
+
+        .search {
+            width: 160px;
+            margin-left: 39px;
+        }
+
+        .material-icons {
+            padding-left: 15px;
+            position: absolute;
+            cursor: pointer;
+
+
+        }
+
+        .registration {
+            background-color: rgba(16, 16, 16, 0.50);
+
+            border-color: 4px solid white;
+            width: 400px;
+            margin: 85px;
+            margin-left: 60px;
+            height: 300px;
+            padding: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 10px;
+
+        }
+
+        .registration h2 {
+            color: rgb(255, 251, 251);
+            border-radius: 15px;
+            padding-left: 85px;
+            /* position: relative; */
+            margin-top: 5px;
+            margin-left: 0px;
+            /* border: 0.2px solid; */
+            background-color: rgb(0, 0, 0);
+        }
+
+        .aboutme {
+            background-color: rgba(16, 16, 16, 0.50);
+            margin: 50px;
+            margin-bottom: 0px;
+            width: 1300px;
+            padding-left: 110px;
+            padding-top: 20px;
+            height: 350px;
+            font-size: 17px;
+
+
+        }
+
+        .header {
+            background-color: rgb(188, 127, 28);
+            border-radius: 10px;
+            width: 350px;
+
+        }
+        .bottom{
+            background-color: rgb(9, 9, 10);
+            padding-bottom: 10px;
+            font-size: 20px;
+            
+        }
+        .logo:hover{
+            border: 2px solid wheat;
+            cursor: pointer;
+        }
+        
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="left">
+            <img src="gn.jpg" alt="">
+
+        </div>
+    </header>
+    <div class="middle">
+        <ul class="navbar">
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Media</li>
+            <li>Our Business</li>
+            <li>Services</li>
+
+        </ul>
+    </div>
+    <div class="right">
+        <input type="button" value="Contact Us" class="button" style="color:rgb(0, 0, 0) ; ">
+        <i class="material-icons">search</i>
+        <input type="text" value="" class="search" placeholder="Search">
+
+
+    </div>
+    <div class="registration">
+        <h2>Register your project</h2>
+
+        Name <input type="text" class="input1" style="margin :10px ; margin-left: 18px;" autofocus><br>
+        Email Id <input type="text" class="input1" style="margin :10px ; margin-left: 0px;"><br>
+        Mob no <input type="tel" class="input1" style="margin :10px ; margin-left: 6px;"><br>
+        <!-- City <input type="text" class="input1" style="margin :10px ; margin-left: 28px;"><br> -->
+        <label for="city">City</label>
+        <select name="Myhobbies" id="hobbiesid" style="  margin: 10px; margin-left:29px;padding: 0px 10px; ">
+            <option value="1">Delhi</option>
+            <option value="2">Pune</option>
+            <option value="3">Mumbai</option>
+            <option value="5">Jaipur</option>
+            <option value="6">kolkata</option>
+            <option value="7">Hydrabad</option>
+            <option value="8">Ahmedabad</option>
+            <option value="9">Chandigarh</option>
+            <option value="10">Banglore</option>
+
+        </select><br>
+        <label for="">Budget</label>
+        <select name="budget" id="budget" style="  margin: 10px; margin-left:10px; padding: 0px 10px; ">
+            <option value="1">50lac-1cr</option>
+            <option value="2">1cr-2cr</option>
+            <option value="3">2cr-3cr</option>
+            <option value="4">3cr-4cr</option>
+            <option value="4">4cr and above</option>
+        </select><br>
+
+        <input type="button" value="Submit" class="button" style="margin-left: 72px;">
+        <input type="reset" value="Reset now" class="button" style="margin-left: 40px;">
+
+    </div>
+    <div class="aboutme">
+
+        <h2 class="header">Let your dreams be our project.</h2>
+        <h2 style=" width:100px">About us</h2>
+        Headquartered in Mumbai, Larsen & Toubro <br>
+        Limited is one of the largest and most respected <br>
+        companies in India's private sector. <br> With over 80 years of a strong, customer focused <br> approach and a
+        continuous quest for world-class quality,<br> L&T has unmatched capabilities across Technology, <br>
+        Engineering, Construction, and Manufacturing, and <br> maintains a leadership in all its major lines of
+        business.
+        <video src="Untitled video - Made with Clipchamp.mp4" width="500px" class="video" autoplay muted loop style="position: absolute; margin: 100px;margin-top: -235px;
+        margin-left: 250px;"></video>
+    </div>
+
+    <div class="bottom">
+        <!-- <p>Follow us On: </p>  -->
+        <img src="facebook2.png" width="35px" alt="facebook" style="margin-left:537px ; margin-top: 10px;" class="logo" >Facabook
+        <img src="instagram.png" width="35px" alt="instagram" style="margin-left:40px ;"class="logo" >Instagram
+        <img src="linkedin.png" width="35px" alt="linkedin" style="margin-left:40px ;"class="logo">linkedin
+    </div>    
+</body>
+</html>
+
+
+
